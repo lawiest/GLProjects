@@ -1,0 +1,17 @@
+﻿  glad.c
+c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+  e:\glprojects\glprojects\common\include\glad\glad.h(32): note: 参见“APIENTRY”的前一个定义
+  hdr.cpp
+e:\glprojects\glprojects\common\include\mesh.h(97): warning C4267: “参数”: 从“size_t”转换到“GLsizei”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(32): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(33): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(143): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(365): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(366): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(370): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(371): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(373): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(374): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\glprojects\glprojects\learnopengl\hdr\hdr.cpp(383): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  HDR.vcxproj -> E:\GLProjects\GLProjects\LearnOpenGL\HDR\..\Debugx64\HDR.exe
+  HDR.vcxproj -> ..\Debugx64\HDR.pdb (Full PDB)
