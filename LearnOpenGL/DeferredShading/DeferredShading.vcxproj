@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4F7D1315-3B22-4D2E-BE98-669B0C1EFA43}</ProjectGuid>
+    <ProjectGuid>{E753215A-0231-401F-92DD-FFF9747A66CA}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Bloom</RootNamespace>
+    <RootNamespace>DeferredShading</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -113,7 +113,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\common\lib;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3d.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -152,21 +152,20 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>..\..\common\lib;$(OutDir);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>glfw3d.lib;assimp-vc140-mt.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\..\common\src\glad.c" />
-    <ClCompile Include="bloom.cpp" />
+    <ClCompile Include="deferred_shading.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Debugx64\7.bloom.fs" />
-    <None Include="..\Debugx64\7.bloom.vs" />
-    <None Include="..\Debugx64\7.bloom_final.fs" />
-    <None Include="..\Debugx64\7.bloom_final.vs" />
-    <None Include="..\Debugx64\7.blur.fs" />
-    <None Include="..\Debugx64\7.blur.vs" />
-    <None Include="..\Debugx64\7.light_box.fs" />
+    <None Include="..\Releasex64\8.1.deferred_light_box.fs" />
+    <None Include="..\Releasex64\8.1.deferred_light_box.vs" />
+    <None Include="..\Releasex64\8.1.deferred_shading.fs" />
+    <None Include="..\Releasex64\8.1.deferred_shading.vs" />
+    <None Include="..\Releasex64\8.1.g_buffer.fs" />
+    <None Include="..\Releasex64\8.1.g_buffer.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
