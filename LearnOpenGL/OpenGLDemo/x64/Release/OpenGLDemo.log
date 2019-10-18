@@ -1,4 +1,27 @@
-﻿  正在生成代码
+﻿  glad.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+  E:\GLProjects\GLProjects\common\include\glad/glad.h(32): note: 参见“APIENTRY”的前一个定义
+  mian.cpp
+mian.cpp(69): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(70): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(74): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(75): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(77): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(78): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(85): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(259): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+mian.cpp(293): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(294): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(301): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(302): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(309): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(310): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(317): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(318): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(326): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(327): warning C4305: “参数”: 从“double”到“float”截断
+mian.cpp(349): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+  正在生成代码
   All 450 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   已完成代码的生成
   OpenGLDemo.vcxproj -> E:\GLProjects\GLProjects\LearnOpenGL\x64\Release\OpenGLDemo.exe
