@@ -131,7 +131,7 @@ int main()
 		if (index >= 360.0f)
 			index = 1.0f;
 
-		index += 3;
+		index += 0.5f;
 
 		glm::mat4 rotate(1.0);
 		rotate = glm::rotate(rotate, glm::radians(index), glm::vec3(0.0f, 1.0f, 0.0f));
