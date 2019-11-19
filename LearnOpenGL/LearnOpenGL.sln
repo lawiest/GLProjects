@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PBRLighting", "PBRLighting\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PBRLightingTexture", "PBRLightingTexture\PBRLightingTexture.vcxproj", "{8EF75020-8658-448E-9826-6D5360DA200C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IBL_Rradiance_Conversion", "IBL_Rradiance_Conversion\IBL_Rradiance_Conversion.vcxproj", "{FB156A81-DB6A-4588-8612-BCD12662321D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -281,6 +283,14 @@ Global
 		{8EF75020-8658-448E-9826-6D5360DA200C}.Release|x64.Build.0 = Release|x64
 		{8EF75020-8658-448E-9826-6D5360DA200C}.Release|x86.ActiveCfg = Release|Win32
 		{8EF75020-8658-448E-9826-6D5360DA200C}.Release|x86.Build.0 = Release|Win32
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Debug|x64.ActiveCfg = Debug|x64
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Debug|x64.Build.0 = Debug|x64
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Debug|x86.Build.0 = Debug|Win32
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Release|x64.ActiveCfg = Release|x64
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Release|x64.Build.0 = Release|x64
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Release|x86.ActiveCfg = Release|Win32
+		{FB156A81-DB6A-4588-8612-BCD12662321D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
