@@ -26,25 +26,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Debugx64\7.bloom.fs">
+    <None Include="..\Releasex64\7.bloom.fs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.bloom.vs">
+    <None Include="..\Releasex64\7.bloom.vs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.bloom_final.fs">
+    <None Include="..\Releasex64\7.bloom_final.fs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.bloom_final.vs">
+    <None Include="..\Releasex64\7.bloom_final.vs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.blur.fs">
+    <None Include="..\Releasex64\7.blur.fs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.blur.vs">
+    <None Include="..\Releasex64\7.blur.vs">
       <Filter>Shader</Filter>
     </None>
-    <None Include="..\Debugx64\7.light_box.fs">
+    <None Include="..\Releasex64\7.light_box.fs">
       <Filter>Shader</Filter>
     </None>
   </ItemGroup>

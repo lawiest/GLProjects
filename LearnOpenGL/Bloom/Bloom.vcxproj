@@ -160,13 +160,13 @@
     <ClCompile Include="bloom.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Debugx64\7.bloom.fs" />
-    <None Include="..\Debugx64\7.bloom.vs" />
-    <None Include="..\Debugx64\7.bloom_final.fs" />
-    <None Include="..\Debugx64\7.bloom_final.vs" />
-    <None Include="..\Debugx64\7.blur.fs" />
-    <None Include="..\Debugx64\7.blur.vs" />
-    <None Include="..\Debugx64\7.light_box.fs" />
+    <None Include="..\Releasex64\7.bloom.fs" />
+    <None Include="..\Releasex64\7.bloom.vs" />
+    <None Include="..\Releasex64\7.bloom_final.fs" />
+    <None Include="..\Releasex64\7.bloom_final.vs" />
+    <None Include="..\Releasex64\7.blur.fs" />
+    <None Include="..\Releasex64\7.blur.vs" />
+    <None Include="..\Releasex64\7.light_box.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
